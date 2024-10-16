@@ -1,0 +1,15 @@
+<odoo>
+    <menuitem
+    id="to_do_root_menu"
+    name="To Do"
+    />
+    <menuitem
+    id="all_tasks_menu"
+    name="All Tasks"
+    parent="to_do_root_menu"
+    /><menuitem
+    id="partner_menu"
+    name="Partner"
+    parent="to_do_root_menu"
+    />
+</odoo>
